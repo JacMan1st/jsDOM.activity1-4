@@ -3,6 +3,8 @@
     
 // });
 
+
+// // // activity 1 // // //
 const buttonImage = document.getElementById("carPic");
 
 document.getElementById("picButton").addEventListener("click", () => {
@@ -12,4 +14,15 @@ document.getElementById("picButton").addEventListener("click", () => {
         buttonImage.style.background = "none";
     }
 });
+
+
+// // // /activity 2 /// // //
+const furyImage = document.getElementById("furyImage");
+const inputURL = document.getElementById("inputURL");
+const imgToChange = document.getElementById("imgToChange");
+
+imgToChange.addEventListener("click", () => {
+    furyImage.src = inputURL.value;
+    inputURL.value = "";
+})
 

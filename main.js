@@ -3,6 +3,7 @@
     
 // });
 
+// // // MOVED JS FOR EACH PAGE TO MAKE IT WORK
 
 // // // activity 1 // // //
 const buttonImage = document.getElementById("carPic");
